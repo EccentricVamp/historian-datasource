@@ -23,11 +23,3 @@ Frontend: `npm install`
 Backend: `mage`
 
 Frontend: `npm run build`
-
-## Sign
-
-`npm run sign`
-
-## Publish
-
-`npm run publish`
