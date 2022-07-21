@@ -1,0 +1,19 @@
+{
+  "name": "clevelandcliffs-historian-datasource",
+  "version": "0.1.0",
+  "description": "Datasource for GE Proficy Historian",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build"
+  },
+  "author": "Luke Cloninger",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/runtime": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

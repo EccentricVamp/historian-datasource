@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Proficy Historian",
+  "id": "clevelandcliffs-historian-datasource",
+
+  "metrics": true,
+  "alerting": true,
+  "backend": true,
+
+  "executable": "gpx_historian",
+
+  "info": {
+    "description": "Datasource for GE Proficy Historian",
+    "author": {
+      "name": "Luke Cloninger",
+      "url": "https://clevelandcliffs.com"
+    },
+    "keywords": [
+      "proficy",
+      "historian"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0"
+  }
+}
