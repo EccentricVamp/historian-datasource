@@ -1,5 +1,7 @@
 # Proficy Historian Grafana Datasource
 
+Tested to work with GE Historian 7.1 and up. Uses the [REST API](https://www.ge.com/digital/documentation/historian/version71/IOTcwM2Y5YzctNGZhMy00M2IzLWFlZmUtNjcxODkwMzNlM2Zh.html)
+
 ## Prerequisites
 
 1. [Visual Studio Code](https://code.visualstudio.com/)
